@@ -26,6 +26,16 @@ folio.addEventListener('click', () => {
   });
 });
 
+const coder = document.getElementById('coder');
+const homepage = document.getElementById('homepage');
+
+coder.addEventListener('click', () => {
+  window.scrollBy({
+    top: homepage.getBoundingClientRect().top,
+    behavior: 'smooth',
+  });
+});
+
 window.onload = function () {
   const elm = document.querySelectorAll('.section');
   const elmCount = elm.length;

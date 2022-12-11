@@ -28,6 +28,11 @@ a {
   margin-bottom: 50px;
 }
 
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
 /*header*/
 header {
   background-color: #0a0a0a;
@@ -60,7 +65,6 @@ header .sub-menu {
 
 header .sub-menu ul.menu {
   display: flex; /*수평정렬*/
-  list-style: none;
 }
 
 header .sub-menu ul.menu li {
@@ -249,7 +253,6 @@ header .sub-menu ul.menu li:first-child::before {
 .folio .design ul,
 .folio .coder ul {
   display: flex;
-  list-style: none;
   padding-inline-start: 0;
   align-items: center;
   height: 100vh;
@@ -385,4 +388,11 @@ header .sub-menu ul.menu li:first-child::before {
 .folio .coder .left:hover:after {
   opacity: 1;
   position: absolute;
+}
+footer .copyright {
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
