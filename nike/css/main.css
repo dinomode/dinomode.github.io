@@ -114,6 +114,7 @@ header .main-menu {
   display: flex;
   margin-left: 150px;
   align-items: center;
+  cursor:pointer;
 }
 
 header .main-menu .item .item__name {
