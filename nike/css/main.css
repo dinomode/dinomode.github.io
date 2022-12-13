@@ -114,12 +114,12 @@ header .main-menu {
   display: flex;
   margin-left: 150px;
   align-items: center;
-  cursor:pointer;
 }
 
 header .main-menu .item .item__name {
   font-weight: 700;
   margin-right: 50px;
+  cursor: pointer;
 }
 
 header .main-menu .item .item__contents {
@@ -228,6 +228,7 @@ header .sub-menu ul li .sub-buttom-menu .search .material-icons {
   bottom: 0;
   left: 5px;
   margin: auto;
+  cursor: pointer;
 }
 
 header .sub-menu ul li .sub-top-menu ul li:first-child::before {
