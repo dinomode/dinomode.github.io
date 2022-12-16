@@ -234,6 +234,25 @@ header .sub-menu ul li .sub-buttom-menu .search .material-icons {
 header .sub-menu ul li .sub-top-menu ul li:first-child::before {
   display: none;
 }
+
+/**/
+header .badges {
+  position: absolute;
+  top: 135px;
+  right: 12px;
+}
+
+header .badges .badge {
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #333;
+  /*overflow: hidden; /*이미지를 둥글게*/
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15); /*소수점0은 생략가능하다 */
+}
+
 /*visual*/
 .visual {
 }
