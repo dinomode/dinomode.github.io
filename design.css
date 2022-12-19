@@ -59,7 +59,8 @@
 .banner .sub-title,
 .brand .sub-title,
 .edit .sub-title,
-.character .sub-title {
+.character .sub-title,
+.web .sub-title {
   margin-bottom: 0px;
 }
 
@@ -67,7 +68,8 @@
 .banner p,
 .brand p,
 .edit p,
-.character p {
+.character p,
+.web p {
   font-weight: 300;
   line-height: 150%;
   margin-bottom: 50px;
@@ -135,7 +137,8 @@
 
 /*edit*/
 .edit,
-.character {
+.character,
+.web {
   margin: 150px 0;
 }
 .edit .edit-img ul {
@@ -150,11 +153,24 @@
   border: 0.25px solid #ddd;
 }
 
-/**/
+/*character*/
 .character .character-img {
   display: flex;
 }
 
 .character .character-img img {
   width: 50%;
+}
+
+/*web*/
+
+.web .web-img {
+  display: flex;
+}
+.web .web-img a {
+  padding: 0px 10px;
+}
+
+.web .web-img img {
+  width: 100%;
 }
