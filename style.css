@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+.container img {
+  width: 100%;
+}
+
+.badges {
+  position: fixed;
+  top: 90px;
+  right: 0;
+}
+.badges .badge {
+  background-color: #011631;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pon_badge {
+  background-color: #063f31;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
